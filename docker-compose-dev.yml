@@ -5,10 +5,10 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     ports:
-      - "4000:3000"
+      - "4005:3000"
     volumes:
       - /home/node/app/node_modules
-      - ~/frontend:/home/node/app
+      - .:/home/node/app
   # tests:
   #   build: 
   #     context: .

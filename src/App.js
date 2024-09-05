@@ -9,7 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
           <br></br>
-          This is the feature.
+          This is no longer a feature.
         </p>
         <a
           className="App-link"
