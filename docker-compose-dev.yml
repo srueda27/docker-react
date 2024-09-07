@@ -1,3 +1,5 @@
+# To run: docker-compose up --build
+# The --build flag is use to rebuild the images everytime and get all the updates from the code or Docker files
 version: '3'
 services: 
   react-app:
@@ -7,8 +9,8 @@ services:
     ports:
       - "4005:3000"
     volumes:
-      - /home/node/app/node_modules
-      - .:/home/node/app
+      - /app/node_modules
+      - .:/app
   # tests:
   #   build: 
   #     context: .
